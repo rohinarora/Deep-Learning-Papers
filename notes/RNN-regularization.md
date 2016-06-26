@@ -12,7 +12,8 @@
 * WMT'14 English to French Machine Translation BLEU: 29.03
 * MS COCO Image Caption Generation BLEU: 24.3
 
-* Dropout helps relative to not using dropout, but using an ensemble eliminates the gains attained by dropout.  * Thus,the main effect of dropout is to **produce a single model that is as good as an  ensemble**, which is a reasonable improvement given the simplicity of the technique.
+* Dropout helps relative to not using dropout, but using an ensemble eliminates the gains attained by dropout.
+* Thus,the main effect of dropout is to **produce a single model that is as good as an  ensemble**, which is a reasonable improvement given the simplicity of the technique.
 
 The code for this paper is at - https://github.com/wojzaremba/lstm
  (Requires GPU to run)
