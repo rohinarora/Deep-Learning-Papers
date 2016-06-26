@@ -1,4 +1,4 @@
-##Source- https://arxiv.org/pdf/1409.2329v5.pdf
+###Source- https://arxiv.org/pdf/1409.2329v5.pdf
 
 * Dropout is a very successful technique for regularizing NN.  
 * But it doesn't work well with RNN's. This paper shows how to apply dropout to LSTMs
@@ -15,5 +15,4 @@
 * Dropout helps relative to not using dropout, but using an ensemble eliminates the gains attained by dropout.  * Thus,the main effect of dropout is to **produce a single model that is as good as an  ensemble**, which is a reasonable improvement given the simplicity of the technique.
 
 The code for this paper is at - https://github.com/wojzaremba/lstm
-
 Requires GPU to run
