@@ -1,11 +1,11 @@
-Source- https://arxiv.org/pdf/1409.2329v5.pdf
+##Source- https://arxiv.org/pdf/1409.2329v5.pdf
 
 * Dropout is a very successful technique for regularizing NN.  
 * But it doesn't work well with RNN's. This paper shows how to apply dropout to LSTMs
 * The main idea is to apply the dropout operator only to the non-recurrent connections.
 * By not using dropout on the recurrent connections, the LSTM can benefit from dropout regularization without sacrificing its valuable memorization ability
 
-##Data Sets and model performance
+###Data Sets and model performance
 
 * PTB Language Modeling Perplexity: 78.4
 * Google Icelandic Speech Dataset WER Accuracy: 70.5
