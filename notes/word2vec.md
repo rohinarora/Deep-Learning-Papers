@@ -7,7 +7,7 @@ Sources-
 [word2vec Explained: Deriving Mikolov et al.’s Negative-Sampling Word-Embedding Method](http://arxiv.org/pdf/1402.3722v1.pdf) ,
 [Neural Word Embedding as Implicit Matrix Factorization](https://papers.nips.cc/paper/5477-neural-word-embedding-as-implicit-matrix-factorization.pdf)
 
-* 2 variants- Continous Bag of Words(CBOW) and skip-gram model with negative sampling(SGNS). CBOW is trained to predict the target word t from the contextual words that surround it, while the skip-gram model predicts the neighboring words given the current word.
+* 2 variants- Continous Bag of Words(CBOW) and skip-gram model with negative sampling(SGNS). CBOW is trained to predict the target word from the contextual words that surround it, while the skip-gram model predicts the neighboring words given the current word.
 
 * Skip gram model was introduced by Mikolov in http://arxiv.org/pdf/1301.3781.pdf
 
@@ -29,5 +29,5 @@ Sources-
 
 * Quoting Omer Levy- " word2vec through SGNS is doing something very similar to what the NLP community has been doing for about 20 years, it's just doing it really well."
 
-* More on it at- (Neural Word Embedding as Implicit Matrix Factorization) [https://papers.nips.cc/paper/5477-neural-word-embedding-as-implicit-matrix-factorization.pdf]
+* More on it at- [Neural Word Embedding as Implicit Matrix Factorization](https://papers.nips.cc/paper/5477-neural-word-embedding-as-implicit-matrix-factorization.pdf)
 
