@@ -1,10 +1,10 @@
-### word2vec is quite famous by now. I explored the reasons why it works well
+#### word2vec is quite famous by now. I explored the reasons why it works well
 
 Sources- 
 
-[Distributed Representations of Words and Phrases and their Compositionality](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
-[Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781.pdf)
-[word2vec Explained: Deriving Mikolov et al.’s Negative-Sampling Word-Embedding Method](http://arxiv.org/pdf/1402.3722v1.pdf)
+[Distributed Representations of Words and Phrases and their Compositionality](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) ,
+[Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781.pdf) ,
+[word2vec Explained: Deriving Mikolov et al.’s Negative-Sampling Word-Embedding Method](http://arxiv.org/pdf/1402.3722v1.pdf) ,
 [Neural Word Embedding as Implicit Matrix Factorization](https://papers.nips.cc/paper/5477-neural-word-embedding-as-implicit-matrix-factorization.pdf)
 
 * 2 variants- Continous Bag of Words(CBOW) and skip-gram model with negative sampling(SGNS). CBOW is trained to predict the target word t from the contextual words that surround it, while the skip-gram model predicts the neighboring words given the current word.
