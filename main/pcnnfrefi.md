@@ -1,5 +1,6 @@
 *  Based on the paper [Pruning Convolutional Neural Networks for Resource Efficient Inference
 ](https://arxiv.org/abs/1611.06440)
+* [**Re-Implementation in PyTorch**](https://github.com/rohinarora/Neural-Networks-Pruning/tree/master/2.%20Pruning%20CNNs%20For%20Resource%20Efficient%20Inference)
 * Recurring theme
   * Focus on transfer learning
   * Greedy criteria-based pruning of feature maps from convolutional layers
@@ -30,4 +31,3 @@
   * Optionally further regularized by FLOP regularization. FLOPs regularization takes into account that different layers require different amounts of computation. Encourages layers contributing higher FLOPs to be pruned more (scaled by regularization factor).
     * Layers which have high flops will have lower taylor score and will be promoted to prune
   ![](images/1.png)
-* Inspired by Jacob's nice [blog post](https://jacobgil.github.io/deeplearning/pruning-deep-learning)
