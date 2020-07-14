@@ -9,5 +9,5 @@ This repo has notes and critiques of papers i found interesting (computer vision
 * [Meta/Trends](./main/meta_nn_compression.md)
 
 
-### Dealing with sparsity
+#### Dealing with sparsity
 * [README](./main/sparsity.md)

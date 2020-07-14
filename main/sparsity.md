@@ -5,7 +5,6 @@
 * cuSOLVER
   * https://docs.nvidia.com/cuda/cusolver/index.html
   * cuSolver library is a high-level package based on the cuBLAS and cuSPARSE libraries
-  * CUDA sparse matix library
   * https://stackoverflow.com/questions/31840341/solving-general-sparse-linear-systems-in-cuda
     * Supports  solving general sparse linear systems in CUDA
 * Tiramisu Compiler
@@ -37,12 +36,12 @@
 * Examples
   * Blog post on running sparse algorithm on Nvidia Jetson https://hacarus.com/information/tech/sparse-modeling-with-the-jetson-nano-developer-kit/
     * Uses cuBLAS and cuSOLVER
-* CUSP
+* CUSP. Old
   * https://developer.nvidia.com/cusp
   * https://cusplibrary.github.io/index.html
   * https://github.com/cusplibrary/cusplibrary
   * CUSP is an open source C++ library for sparse linear algebra based on Thrust
   * support for CUDA 7.0. Last release 2 years ago. Outdated/not maintained
-* nsparse
+* nsparse. Old
   * https://github.com/EBD-CREST/nsparse
   * some 3d party it seems. support only CUDA: >=5.0 && < 9.0
