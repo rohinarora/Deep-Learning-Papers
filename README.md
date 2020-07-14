@@ -8,6 +8,5 @@ This repo has notes and critiques of papers i found interesting (computer vision
 * [Pruning Convolutional Neural Networks for Resource Efficient Inference](./main/pcnnfrefi.md)  [[arXiv](https://arxiv.org/abs/1611.06440)]
 * [Meta/Trends](./main/meta_nn_compression.md)
 
-
-#### Dealing with sparsity
+#### Dealing with sparsity  
 * [README](./main/sparsity.md)
