@@ -1,0 +1,1 @@
+* Papers often hide bad results, and cherry pick only the good ones to publish. True for all areas of DL. Practitioners should do their own due diligence of testing exhaustively on different datasets (and different architectures if applicable) before deploying to production
