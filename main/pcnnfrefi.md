@@ -31,3 +31,4 @@
   * Optionally further regularized by FLOP regularization. FLOPs regularization takes into account that different layers require different amounts of computation. Encourages layers contributing higher FLOPs to be pruned more (scaled by regularization factor).
     * Layers which have high flops will have lower taylor score and will be promoted to prune
   ![](images/1.png)
+* Doesn't work with ResNets. Mentioned in the follow up paper - https://arxiv.org/abs/1906.10771
