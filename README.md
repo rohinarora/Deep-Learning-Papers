@@ -6,4 +6,4 @@ This repo has notes and critiques of papers i found interesting (computer vision
 ## Neural Network Compression
 
 
-* [Pruning Convolutional Neural Networks for Resource Efficient Inference](./notes/pcnnfrefi.md)  [[arXiv](https://https://arxiv.org/abs/1611.06440)]
+* [Pruning Convolutional Neural Networks for Resource Efficient Inference](./notes/pcnnfrefi.md)  [[arXiv](https://arxiv.org/abs/1611.06440)]
