@@ -10,3 +10,8 @@ This repo has notes and critiques of papers i found interesting (computer vision
 
 #### Dealing with sparsity  
 * [README](./main/sparsity.md)
+
+## Neural Network Compression
+* EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks
+* Fixing the train-test resolution discrepancy: FixEfficientNet
+* [Meta/Trends](./main/meta_cv.md)
